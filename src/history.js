@@ -1,6 +1,6 @@
-import RopeSequence from "rope-sequence"
-import {Mapping} from "prosemirror-transform"
-import {Plugin, PluginKey} from "prosemirror-state"
+import RopeSequence from "../../rope-sequence/index.js"
+import {Mapping} from "../../prosemirror-transform/src/index.js"
+import {Plugin, PluginKey} from "../../prosemirror-state/src/index.js"
 
 // ProseMirror's history isn't simply a way to roll back to a previous
 // state, because ProseMirror supports applying changes without adding
